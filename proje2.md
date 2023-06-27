@@ -17,12 +17,12 @@
         <br>
         Merge Sort aşamaları şu şekildedir :<br>
         [16, 21, 11, 8, 12, 22]<br>
-        [16, 21, 11] [8, 12, 22] (Diziyi ikiye böl)<br>
-        [16] [21, 11] [8] [12, 22] (Diziyi daha küçük parçalara böl)<br>
-        [16] [11, 21] [8] [12, 22] (Her parçayı ayrı ayrı sırala)<br>
-        [11, 16, 21] [8] [12, 22] (Parçaları birleştir)<br>
-        [8, 11, 16, 21] [12, 22] (Parçaları birleştir)<br>
-        [8, 11, 12, 16, 21, 22] (Tüm parçaları birleştir)<br><br>
+        [16, 21, 11] [8, 12, 22] <br>
+        [16] [21, 11] [8] [12, 22] <br>
+        [16] [11, 21] [8] [12, 22] <br>
+        [11, 16, 21] [8] [12, 22] <br>
+        [8, 11, 16, 21] [12, 22] <br>
+        [8, 11, 12, 16, 21, 22] <br><br>
         Big-O gösterimi: Merge Sort, en iyi, ortalama ve en kötü durumda O(n log n) <br>
         zaman karmaşıklığına sahiptir.
         <br><br>
